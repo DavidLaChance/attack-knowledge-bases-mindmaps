@@ -1,0 +1,2 @@
+# No third-party Python dependencies required.
+# PlantUML/Java/Graphviz/Batik are system-level dependencies.

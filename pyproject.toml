@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "attack-knowledge-bases-mindmaps"
+version = "0.1.0"
+description = "Generate CAPEC/CWE pseudo-schemas and PlantUML mindmap PDFs from XSD schemas"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+akbm-parse = "akbm.parser:main"
+akbm-generate-mindmaps = "akbm.generate_mindmaps:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
