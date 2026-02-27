@@ -210,3 +210,8 @@ __marimo__/
 *.DS_Store
 
 .vscode/
+
+generated/pdf/*
+generated/puml/*
+generated/schemas/*
+

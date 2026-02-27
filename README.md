@@ -6,11 +6,8 @@ Generate CAPEC/CWE pseudo-schemas and PDF mindmaps from XSD files.
 
 ```text
 .
-├── src/
-│   └── akbm/
-│       ├── __init__.py
-│       ├── parser.py
-│       └── generate_mindmaps.py
+├── parser.py
+├── generate_mindmaps.py
 ├── schemas/
 │   ├── ap_schema_latest.xsd.xml
 │   └── cwe_schema_latest.xsd.xml
@@ -18,7 +15,6 @@ Generate CAPEC/CWE pseudo-schemas and PDF mindmaps from XSD files.
 │   ├── schemas/
 │   ├── puml/
 │   └── pdf/
-├── generate_mindmaps.py      # main entry point
 ├── capec_ignored_keys.txt
 └── cwe_ignored_keys.txt
 ```
@@ -28,7 +24,7 @@ Generate CAPEC/CWE pseudo-schemas and PDF mindmaps from XSD files.
 ### Generate a single pseudo-schema
 
 ```bash
-python -m akbm.parser \
+python parser.py \
   --schema schemas/ap_schema_latest.xsd.xml \
   --root attack_pattern \
   --output-dir generated/schemas \
