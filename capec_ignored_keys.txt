@@ -1,0 +1,14 @@
+abstraction
+status
+content_history
+notes
+example_instances
+skills_required
+note
+likelihood_of_attack
+description
+extended_description
+sections
+likelihood
+text
+

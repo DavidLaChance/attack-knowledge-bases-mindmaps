@@ -1,0 +1,12 @@
+description
+extended_description
+background_details
+exploitation_factors
+likelihood_of_exploit
+demonstrative_examples
+observed_examples
+notes
+content_history
+abstraction
+status
+
